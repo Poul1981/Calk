@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Калькулятор</title>
+    <link href="calkStyle.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navigation">
+        <div><a href="">Автор</a></div>
+        <div><a href="">Ссылки</a></div>
+        <div><a href="">Советы</a></div>
+        <div><a href="">Рекомендации</a></div>
+    </nav>
+    <h3>Калькулятор</h3>
+    <div class="container">
+        <form name="myForm">
+            <input class="item input" type="text" name="insertTable" placeholder="" readonly>
+        </form>
+        <div class="item erase" onclick="Erase()">C</div>
+        <div class="item back" onclick="BackSpace()">&laquo</div>
+        <div class="item" onclick="Insert(1)">1</div>
+        <div class="item" onclick="Insert(2)">2</div>
+        <div class="item" onclick="Insert(3)">3</div>
+        <div class="item" onclick="Insert(4)">4</div>
+        <div class="item" onclick="Insert(5)">5</div>
+        <div class="item" onclick="Insert(6)">6</div>
+        <div class="item" onclick="Insert(7)">7</div>
+        <div class="item" onclick="Insert(8)">8</div>
+        <div class="item" onclick="Insert(9)">9</div>
+        <div class="item" onclick="Insert(0)">0</div>
+        <br>
+        <div class="item" onclick="Insert('+')">+</div>
+        <div class="item" onclick="Insert('-')">-</div>
+        <div class="item" onclick="Insert('*')">&times</div>
+        <div class="item" onclick="Insert('/')">&divide</div>
+        <div class="item" onclick="Insert(',')">,</div>
+        <div class="item" onclick="Insert('(')">(</div>
+        <div class="item" onclick="Insert(')')">)</div>
+        <div class="item" onclick="Inversion()">&plusmn</div>
+        <div class="item equal" onclick="Eqval()">=</div>
+    </div>
+    <footer>
+        <div class="stab"></div>
+        <div class="footer">Все правa защищены</div>
+    </footer>
+    <script src="matem.js"></script>
+    <script src="Liskov.js"></script>
+</body>
+
+</html>
